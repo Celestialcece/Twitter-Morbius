@@ -14,7 +14,7 @@ ids = []
 
 while True:
     loopc = 0
-    for tweet in api.search_tweets(q="Morbius" or "morbius" or "MoRbIuS" or "mOrBiUs" or "#Morbius" or "#morbius" or "#MoRbIuS" or "#mOrBiUs", include_entities=True, count=100):
+    for tweet in api.search_tweets(q="Morbius" or "morbius" or "MoRbIuS" or "mOrBiUs" or "#Morbius" or "#morbius" or "#MoRbIuS" or "#mOrBiUs" or "#MorbiusSweep" or "#morbiusSweep" or "#Morbiusweep" or "#morbiussweep" or "#CallingforMorbheads" or "#callingformorbheads" or "MorbiusSweep" or "morbiusSweep" or "Morbiusweep" or "morbiussweep" or "CallingforMorbheads" or "callingformorbheads", include_entities=True, count=100):
         try:
             loopc += 1
             print(loopc)
